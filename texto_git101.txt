@@ -26,3 +26,6 @@ https://guides.github.com/activities/hello-world/
 No Git
 
 >git diff notas_aula_05.txt
+
+# 20201005
+Seguindo a trilha...
