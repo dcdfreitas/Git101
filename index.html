@@ -41,14 +41,49 @@ https://ondemand.lewagon.com/courses/git-github-for-beginners</div>
 	</ol>
 </div>
 <div class="notinha">
-	<h1>mergeando</h1>
-	<p>Uma vez mergeada a branch 'morre'</p>
+	<h1>mergeando...</h1>
+	<p>primeiro commita a branch</p>
+	<p>depois checouta pra main</p>
+	<p>daí que mergeia</p>
+	<p>Uma vez mergeada a branch must dai 'deve morre'</p>
 	<p>Deletando a branch:</p>
 	<p><code>git branch -d versao_html</code></p>
+	<h2>Resumo do codigo</h2>
+	<p>
+		<pre>
+			git checout main
+			git diff main..meu_ramo
+			git merge --no--ff meu_ramo
+		</pre>
+	</p>
 </div>
 <div class="assunto">
 	<h1>REMOTO</h1>
-</div>
+	<h2>Traabalhando com o provedor GitHub</h2>
+	  <p>	
+		<pre>
+			git push <remote> <branch>
+			git push origin master
+			git pull <remoto> <ramo>
+			git pull origin master
+
+		</pre>
+	  </p>	
+	  <h2>Criando um REMOTO</h2>
+	  <p>etapa feita no GitHub</p>
+	  <p>'Create a new repository</p>
+	  <a href="github.com/new">github.com/new</a>
+	  <p>o GitHub vai gerar os comandos necessários par conectar o reposítório ao projeto git local</p>
+	  	<pre>
+			# vendo os servidores remotos:
+			git remote -v 
+			# colando a comando gerado pelo GitHub:
+			git remote add origin https:github.com/dcdfreitas/Git101.git
+			git pull <remoto> <ramo>
+			git pull origin master
+
+		</pre>
+	</div>
 
 </body>
 </html>
