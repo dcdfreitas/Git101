@@ -1,3 +1,6 @@
+# Link do site publicado no GitHub:
+https://dcdfreitas.github.io/Git101/
+
 # Aula 05
 ## git and Github
 Link da aula
@@ -23,5 +26,5 @@ https://ondemand.lewagon.com/courses/git-github-for-beginners
 To learn more about the power of Pull Requests, we recommend reading the GitHub flow Guide. You might also visit GitHub Explore and get involved in an Open Source project.
 https://guides.github.com/activities/hello-world/
 
-
+## 
 
